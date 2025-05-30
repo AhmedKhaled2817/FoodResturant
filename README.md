@@ -1,47 +1,49 @@
 # 🍽️ Food Restaurant Website
 
-A modern and responsive website for a restaurant. Designed with clean HTML, CSS, and optionally JavaScript to deliver an elegant user experience that highlights the restaurant's services, menu, and contact details.
+A modern and fully responsive website for a restaurant, designed to provide users with an engaging experience showcasing the restaurant's brand, food offerings, and reservation options. Built using HTML, CSS, and JavaScript with support for smooth UI transitions and interactive components.
+
+---
 
 ## 🌐 Live Demo
 
-> [🔗 View the Website](https://ahmedkhaled2817.github.io/FoodResturant/)
+👉 [Click here to view the live site](https://ahmedkhaled2817.github.io/FoodResturant/)
 
 ---
 
 ## 📸 Screenshots
 
-### 🏠 Home Page
-![image](https://github.com/user-attachments/assets/775e6c98-82a6-4f18-bc59-d8d2255458d8)
+### 🏠 Home Page  
+![Home](https://github.com/user-attachments/assets/775e6c98-82a6-4f18-bc59-d8d2255458d8)
 
+### 📋 Menu Section  
+![Menu](https://github.com/user-attachments/assets/1f3a6faf-674e-49d7-aaba-8de03cc63788)
 
-### 📋 Menu Section
-![image](https://github.com/user-attachments/assets/1f3a6faf-674e-49d7-aaba-8de03cc63788)
-
-
-### 📅 Reservation Form
-![image](https://github.com/user-attachments/assets/0dc11cde-490f-4761-ab4e-2be497f10285)
-
+### 📅 Reservation Form  
+![Reservation](https://github.com/user-attachments/assets/0dc11cde-490f-4761-ab4e-2be497f10285)
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-- ✅ Fully responsive design for mobile, tablet, and desktop
-- ✅ Modern, clean UI with smooth transitions and animations
-- ✅ Menu section with food categories and images
-- ✅ Contact form with basic fields
-- ✅ Stylish typography and icons via Google Fonts and Font Awesome
+- 🎯 **Responsive Design**: Optimized for mobile, tablet, and desktop views.
+- 🎨 **Modern UI**: Clean layout, consistent colors, and smooth animations.
+- 🍝 **Dynamic Menu Section**: Organized food items with visuals and categories.
+- 📅 **Reservation Form**: Simple form for table booking.
+- 🔤 **Web Typography**: Custom fonts via Google Fonts for enhanced readability.
+- 🔧 **Reusable Components**: Code structured for scalability and clarity.
 
 ---
 
-## 🔧 Technologies Used
+## 🛠️ Technologies Used
 
-- **HTML5**
-- **CSS3** (Flexbox, Grid)
-- **SWIPER CSS**
-- **JavaScript** 
-- **REMIXICONS** 
-- **Google Fonts**
+| Technology      | Description                                      |
+|-----------------|--------------------------------------------------|
+| **HTML5**       | Markup structure of the web pages                |
+| **CSS3**        | Styling with Flexbox, Grid, and custom effects   |
+| **JavaScript**  | Interactive features and component behaviors     |
+| **Swiper.js**   | For sliders/carousels                            |
+| **Remix Icons** | Iconography for a modern UI                      |
+| **Google Fonts**| Beautiful and readable typography                |
 
 ---
 
