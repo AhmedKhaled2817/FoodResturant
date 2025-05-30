@@ -10,17 +10,15 @@ A modern and responsive website for a restaurant. Designed with clean HTML, CSS,
 
 ## 📸 Screenshots
 
-Home Page
+### 🏠 Home Page
+![Home](screenshots/home.png)
 
-![Home](<img width="1277" alt="HOME" src="https://github.com/user-attachments/assets/6c7bc72f-f796-4517-ae71-46024fc11fe8" />)
+### 📋 Menu Section
+![Menu](screenshots/menu.png)
 
-Menu Section 
+### 📅 Reservation Form
+![Reservation](screenshots/reservation.png)
 
-![Menu](<img width="1280" alt="MENU" src="https://github.com/user-attachments/assets/fd5ee97d-f3e4-4f2b-adb0-7a73b3b44f58" />) 
-
-Reservation Form
-
-![Reservation](<img width="1279" alt="Reservation" src="https://github.com/user-attachments/assets/6a205a69-5782-42c7-8d4a-f81632557a32" />)
 
 ---
 
