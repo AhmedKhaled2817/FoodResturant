@@ -1,0 +1,364 @@
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 87.5rem) {
+    .container{
+        max-width: 71.25rem;
+    }
+
+    :root{
+        /*========== Colors ==========*/
+        --first-color: #ffd30f;
+        --second-color:#f2264c;
+        --title-color:#000000 ;
+        --text-color: #545454  ;
+        --body-color: #ffffff ;
+        --container-color:#f6f9fd;
+        --circle-color:#c2c2c2;
+
+        /*========== Font and typography ==========*/
+        --biggest-font-size: 4.5rem ;
+        --bigger-font-size: 3rem;
+        --h1-font-size: 2rem;
+        --h2-font-size: 1.5rem ;
+        --h3-font-size: 1.25rem;
+        --larger-font-size: 1.125rem;
+        --large-font-size: 1rem;
+        --normal-font-size: 0.9375rem;
+
+        /*========== Transition ==========*/
+        --transition: ease-in-out;
+    }
+    }
+     
+    .title-center::after{
+        width: 15rem;
+        height: .625rem;
+    }
+
+     /* ==============Home=============== */
+    .home::before{
+        width: 900px;
+        height: 380px;
+    }
+     /* ===============About============= */
+    .about__item:hover .about__top-title{
+        transform: translateY(-20rem);
+    }
+
+    /*=================Menu ==============*/
+  
+    .menu-one .menu__item{
+        margin-left: 4rem;        
+    }
+    .menu-one .menu__img-wrapper{
+        left: -4rem;
+        width: 11.5rem;
+        height: 10.4375rem;
+    }
+    .menu__rating{
+        margin-bottom: 1.25rem;
+    }
+    .menu__btn{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .menu__btn i{
+        font-size: 1.5rem;
+    }
+    .opening{
+        padding: 2rem;
+    }
+    .opening__list dd{
+        margin-bottom: 0.2rem;
+    }
+    
+    /*=================Menu ==============*/
+    .menu-two .menu__img-wrapper{
+        width: 10.9375rem;
+    }
+    .menu-two .menu__img-wrapper::before{
+        width: 145%;
+    }
+
+
+@media screen and (max-width: 75rem) {
+    .home::before{
+        width: 36.25rem;
+        height: 21.25rem;
+    }
+    .nav__logo-img,
+    .footer__logo-img{
+        width: 8.125rem;
+    }
+    .reservation__btn{
+        display: none;
+    }
+    .nav__close,
+    .nav__toggle,
+    .logo__mobile{
+        display: block;
+    }
+    .nav__menu{
+        position: fixed;
+        left: -100%;
+        top: 0;
+        width: 31.25rem;
+        height: 100%;
+        background-color: var(--body-color);
+        padding: 3rem 2.5rem;
+        box-shadow: .125rem 0 .25rem var(--title-color);
+        transition: all 0.4s var(--transition);
+    }
+    .show-menu{
+        left: 0;
+    }
+    .logo__mobile{
+        margin-bottom: 2.5rem;
+    }
+    .nav__list{
+        flex-direction: column;
+        row-gap: 1.5rem;
+    }
+    .nav__link:not(.active-link){
+        color: var(--title-color);
+    }
+    .nav__link{
+        font-size: var(--h3-font-size);
+    }
+    .nav__close,
+    .nav__toggle{
+        cursor: pointer;
+    }
+    .nav__close{
+        position: absolute;
+        top: 1rem;
+        right: 1.25rem;
+        font-size: 2.5rem;
+        color: var(--title-color);
+    }
+    .nav__toggle{
+        font-size: 1.75rem;
+        color: var(--body-color);
+        
+    }
+    .home__content,
+    .section__container{
+        grid-template-columns: 1fr;
+    }
+    .home__content{
+        row-gap: 2.5rem;
+    }
+    .section__container{
+        row-gap: 1.25rem;
+    }
+    .section__title,
+    .section__description{
+        width: 100%;
+    }
+    .home::before{
+        all: unset;
+    }
+    .home__data{
+        text-align: center;
+    }
+    .home__description,
+    .home__img{
+        margin-inline: auto;
+    }
+    .about__container,
+    .menu-one .menu___container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .about__item:hover .about__top-title{
+        transform: translateY(-24rem);
+    }
+    .opening{
+        padding: 1.75rem;
+    }
+    .opening__data{
+        padding: 1rem;
+    }
+    .services .services__container,
+    .menu-two .menu__container{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .tab__btns{
+        padding: 2rem;
+    }
+    .tab__item{
+        padding: 2.5rem ;
+    }
+
+}
+
+/* For medium devices */
+@media screen and (max-width: 62rem) {
+    .container{
+        max-width: 45rem;
+    }
+    .about__item:hover .about__top-title{
+        transform: translateY(-17rem);
+    }
+    .menu-one .menu___container,
+    .deals__container,
+    .reservation__container,
+    .footer__container{
+        grid-template-columns: 1fr;
+    }
+    .services .services__container,
+    .menu-two .menu__container,
+    .gallery__container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .deals__container,
+    .footer__container{
+        row-gap: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 48rem) {
+    .container{
+        max-width: 33.75rem;
+    }
+    :root{
+        /*========== Font and typography ==========*/
+        --biggest-font-size: 4rem ;
+        --bigger-font-size: 2.5rem;
+    }
+    .title-center::after{
+        width: 12.5rem;
+        height: .5rem;
+    }
+    .swiper-button-next,
+    .swiper-button-prev{ 
+        top: 97%;
+    }
+    .section{
+        padding-block: 6rem;
+    }   
+    .about__container,
+    .services .services__container,
+    .menu-two .menu__container{
+        grid-template-columns: 1fr;
+    }
+    .menu-two .menu__item{
+        padding: 1.5rem;
+        padding-top: 6rem;
+        margin-top: 6rem;
+        border-radius: 1.5rem;
+    }
+    .menu-two .menu__img-wrapper{
+        left: 1.5rem;
+        transform:translateX(0);
+    }
+    .menu-two .menu__img-wrapper::before{
+        all: unset;
+    }
+    .about__item:hover .about__top-title{
+        transform: translateY(-23rem);
+    }
+    .reservation__form .reservation__form-group{
+        display: grid;
+    }
+    .gallery__container{
+        grid-template-columns: repeat(3,1fr);
+        gap: 1rem;
+    }
+    .scroll-up{
+        width: 3.125rem;
+        height: 3.125rem;
+        border-width: .25rem;
+    }
+    .scroll-up__icon{
+        font-size: 1.5rem;
+    }
+}
+/* For small devices */
+@media screen and (max-width: 36rem) {
+    :root{
+        --header-height: 5.5rem ;
+        /*========== Font and typography ==========*/
+        --biggest-font-size: 2.5rem ;
+        --bigger-font-size: 2rem;
+        --h1-font-size: 1.75rem;
+    }
+    .nav{
+        height: calc(var(--header-height)+0.5rem);
+    }
+    .nav__logo-img{
+        width: 7.5rem;
+    }
+    .nav__menu{
+        width: 100%;
+        padding-inline: 2.5rem;
+    }
+    .home{
+        padding-block: 9rem 2.5rem;
+    }
+    .about__item:hover .about__top-title{
+        transform: translateY(-21rem);
+    }
+    .services .services__img-wrapper{
+        width: 7.5rem;
+        height: 7.5rem;
+    }
+    .services .services__img{
+        width: 3.75rem;
+    }
+    .tab__btn::before{
+        width: 12px;
+        height: 12px;
+    }
+    .quality__list{
+        grid-template-columns: 1fr;
+        row-gap: 1.25rem;
+    }
+    .reservation .reservation__icon-wrapper{
+        width: 60px;
+        height: 60px;   
+    }
+}
+
+@media screen and (max-width: 28.125rem) {
+    .about__item:hover .about__top-title{
+        transform: translateY(-19rem);
+    }
+    .about__top{
+        inset: 1rem;
+    }
+    .about__hover{
+        padding-inline: 1.5rem;
+    }
+    .menu-one .menu__item{
+        padding: 1.5rem;
+        padding-top: 6rem;
+        margin-top: 6rem;
+        margin-left: 0;
+        border-radius: 1.5rem;
+    }
+    .menu-one .menu__img-wrapper{
+        width: 175px;
+        height: 154px;
+        left: 1.5rem;
+        top: -38%;
+        transform:translateY(0);
+    }
+    .tab__item{
+        padding: 1.75rem;
+    }
+    .gallery__container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .footer__description{
+        font-size: var(--normal-font-size);
+    }
+    .footer__subscribe{
+        display: block;
+    }
+    .footer__input{
+        margin-bottom: 1.25rem;
+    }
+    .footer__subscribe .button{
+        width: 100%;
+    }
+}
