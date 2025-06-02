@@ -1,12 +1,12 @@
 # 🍽️ Food Restaurant Website
 
-A modern and fully responsive website for a restaurant, designed to provide users with an engaging experience showcasing the restaurant's brand, food offerings, and reservation options. Built using HTML, CSS, and JavaScript with support for smooth UI transitions and interactive components.
+A modern, fully responsive restaurant website designed to deliver an engaging and visually appealing user experience. This project highlights the restaurant’s brand identity, menu offerings, and table reservation features — all built using clean HTML5, CSS3, and JavaScript.
 
 ---
 
 ## 🌐 Live Demo
 
-👉 [Click here to view the live site](https://ahmedkhaled2817.github.io/FoodResturant/)
+🔗 [View the Live Website](https://ahmedkhaled2817.github.io/FoodResturant/)
 
 ---
 
@@ -23,32 +23,33 @@ A modern and fully responsive website for a restaurant, designed to provide user
 
 ---
 
-## ✨ Key Features
+## ✨ Features
 
-- 🎯 **Responsive Design**: Optimized for mobile, tablet, and desktop views.
-- 🎨 **Modern UI**: Clean layout, consistent colors, and smooth animations.
-- 🍝 **Dynamic Menu Section**: Organized food items with visuals and categories.
-- 📅 **Reservation Form**: Simple form for table booking.
-- 🔤 **Web Typography**: Custom fonts via Google Fonts for enhanced readability.
-- 🔧 **Reusable Components**: Code structured for scalability and clarity.
+- ✅ **Responsive Layout**: Fully optimized for mobile, tablet, and desktop devices.
+- 💡 **Modern User Interface**: Elegant design with smooth transitions and hover effects.
+- 🍽️ **Interactive Menu**: Categorized food items with engaging visuals.
+- 📆 **Table Reservation Form**: Clean and functional form for booking a table.
+- 🖋️ **Custom Web Typography**: Integrated Google Fonts for a modern and readable look.
+- ♻️ **Reusable Components**: Organized and maintainable file structure.
 
 ---
 
 ## 🛠️ Technologies Used
 
-| Technology      | Description                                      |
-|-----------------|--------------------------------------------------|
-| **HTML5**       | Markup structure of the web pages                |
-| **CSS3**        | Styling with Flexbox, Grid, and custom effects   |
-| **JavaScript**  | Interactive features and component behaviors     |
-| **Swiper.js**   | For sliders/carousels                            |
-| **Remix Icons** | Iconography for a modern UI                      |
-| **Google Fonts**| Beautiful and readable typography                |
+| Technology      | Description                                         |
+|-----------------|-----------------------------------------------------|
+| `HTML5`         | Page structure and semantic layout                  |
+| `CSS3`          | Responsive design with Flexbox & Grid + animations  |
+| `JavaScript`    | Interactive elements and UI logic                   |
+| `Swiper.js`     | Responsive sliders/carousels                        |
+| `Remix Icons`   | Sleek, lightweight icons                            |
+| `Google Fonts`  | Modern and readable web typography                  |
 
 ---
 
 ## 📁 Project Structure
 
+```
 FoodResturant/
 ├── index.html
 ├── css/
@@ -60,7 +61,6 @@ FoodResturant/
 ├── screenshots/
 │   └── (Project preview images)
 └── README.md
-
 ```
 
 ---
@@ -75,5 +75,3 @@ FoodResturant/
 ## 📝 License
 
 This project is open-source and available under the [MIT License](LICENSE).
-
-
