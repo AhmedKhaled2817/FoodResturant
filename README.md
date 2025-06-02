@@ -63,16 +63,17 @@ FoodResturant/
 
 ```
 
+---
+
 ## 👨‍💻 Author
 
-- **Ahmed Khaled**
-- GitHub: [@AhmedKhaled2817](https://github.com/AhmedKhaled2817)
+**Ahmed Khaled**  
+📎 GitHub: [@AhmedKhaled2817](https://github.com/AhmedKhaled2817)
 
 ---
 
 ## 📝 License
 
 This project is open-source and available under the [MIT License](LICENSE).
-
 
 
