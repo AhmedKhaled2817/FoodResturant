@@ -52,16 +52,16 @@ A modern and fully responsive website for a restaurant, designed to provide user
 FoodResturant/
 ├── index.html
 ├── css/
-│ └── style.css
+│   └── style.css
 ├── js/
-│ └── script.js # (if used)
+│   └── script.js
 ├── images/
-│ └── ...
+│   └── (All image assets)
 ├── screenshots/
-│ └── (for previews)
+│   └── (Project preview images)
 └── README.md
 
----
+```
 
 ## 👨‍💻 Author
 
